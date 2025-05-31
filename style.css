@@ -1,0 +1,933 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+}
+
+@font-face {
+    font-family: "Cabin";
+    src: url(Cabin-VariableFont_wdth\,wght.ttf);
+}
+
+@font-face {
+    font-family: "Questrial";
+    src: url(Questrial-Regular.ttf);
+}
+
+#main{
+    position: relative;
+    width: 100%;
+    height: 900px;
+    background-image: url(h1_hero1.jpg);
+    background-blend-mode: saturation;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-items: center;
+    z-index: 100;
+    background-color: rgba(20, 20, 20, 50%)
+}
+
+#m-hdr-container{
+    position: relative;
+    width: 1296px;
+    height: 51px;
+    top: 35px;
+}
+
+.m-row{
+    position: relative;
+    width: 407.234px;
+    height: 45px;
+    bottom: 49px;
+    left: 873.75px;
+    margin: 0 0 0 15px;
+}
+
+.m-r-links{
+    position: relative;
+    top: 11px;
+    color: white;
+    font-family: "Questrial";
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.m-r-links:nth-child(1){
+    margin: 0 26px 0 0;
+    padding: 5px 0;
+    font-size: 18px;
+}
+
+.m-r-links:nth-child(2){
+    padding: 14px 24px;
+    line-height: 15px;
+    font-size: 16px;
+    border: 1px solid #D6A04C;
+    background-color: #D6A04C;
+}
+
+.m-r-links:nth-child(2):hover{
+    background-color: transparent;
+    color: #D6A04C;
+}
+
+#m-hmenu{
+    position: relative;
+    width: 34px;
+    height: 12px;
+    bottom: 11px;
+    left: 374px;
+}
+
+.m-h-bars{
+    width: 34px;
+    height: 2px;
+    margin: 8px 0;
+    background-color: white;
+}
+
+#m-nav-container{
+    position: relative;
+    width: 1296px;
+    height: 258px;
+    margin: 0 167px;
+    padding: 0 12px;
+    top: 270px;
+}
+
+#m-v-text{
+    position: relative;
+    top: 4px;
+    left: 110px;
+    margin: 0 0 10px 0;
+    color: #E9E3D9;
+    font-family: "Questrial";
+    font-size: 16px;
+    text-transform: uppercase;
+}
+
+#m-v-title{
+    position: relative;
+    width: 450px;
+    top: 8px;
+    left: 110px;
+    color: #FFF;
+    font-family: "Cabin";
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 1.2;
+
+}
+
+#m-v-reel{
+    position: relative;
+    bottom: 117px;
+    left: 1010.8px;
+    margin: 0 42px 0 0;
+    color: #FFF;
+    font-family: "Questrial";
+    font-size: 20px;
+}
+
+#m-v-play-g{
+    position: relative;
+    bottom: 193px;
+    left: 1113px;
+    width: 117.625px;
+    height: 117.625px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 6.25%);
+    cursor: pointer;
+}
+
+#m-v-play-g:hover > #m-v-play-w{
+    background-color: #D6A04C;
+}
+
+#m-v-play-g:hover > #m-v-play-w > a > #play-icon > .icon-color{
+    fill: #FFF;
+}
+
+#m-v-play-w{
+    position: relative;
+    top: 24px;
+    left: 24px;
+    width: 71px;
+    height: 71px;
+    border-radius: 50%;
+    background-color: #FFF;
+}
+
+#play-icon{
+    position: relative;
+    top: 20px;
+    left: 22px;
+}
+
+#m-ftr-container{
+    position: relative;
+    top: 479px;
+    width: 100%;
+    height: 112px;
+}
+
+#m-ftr-container > #m-row{
+    position: relative;
+    left: 50%;
+    bottom: 41px;
+    width: 50%;
+    height: 112px;
+    background-color: #D6A04C;
+}
+
+#cursor-icon{
+    position: relative;
+    top: 6px;
+    left: 419px;
+}
+
+.m-f-text{
+    display: inline-block;
+    position: relative;
+    width: 300px;
+    height: 52px;
+    padding: 30px 40px;
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Questrial";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+#about{
+    position: relative;
+    justify-items: center;
+    width: 100%;
+    height: 765.56px;
+    padding: 90px 0 0 0;
+    background-color: #0b0016;
+    z-index: 100;
+}
+
+#a-title{
+    position: relative;
+    top: 2px;
+    left: -549.75px;
+    color: #FFF;
+    font-family: "Cabin";
+    font-size: 50px;
+    font-weight: 400;
+}
+
+#a-container{
+    position: relative;
+    top: 50px;
+    width: 1320px;
+    height: 644.58px;
+}
+
+.a-row{
+    position: relative;
+    left: 110px;
+    width: 416px;
+    height: 639.77px;
+}
+
+.a-row:nth-child(2){
+    bottom: 640px;
+    left: 660px;
+}
+
+.a-r-text{
+    position: relative;
+    top: 4px;
+    left: 12px;
+    width: 416px;
+    color: #E9E3D9;
+    font-family: "Questrial";
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.a-row:nth-child(1) > .a-r-text{
+    font-size: 27px;
+}
+
+.a-row:nth-child(2) > .a-r-text{
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.a-r-img{
+    position: relative;
+    top: 54px;
+    left: 12px;
+}
+
+.a-r-img:nth-child(2){
+    width: 416px;
+    height: 427.77;
+}
+
+.a-row:nth-child(2) > .a-r-img{
+    top: 100px;
+}
+
+#a-r-link{
+    position: relative;
+    top: 47px;
+    left: 12px;
+    color: #FFF;
+    border: 1px solid #D6A04C;
+    padding: 18px 32px;
+    font-family: "Questrial";
+    font-size: 16px;
+    font-weight: 500;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+#a-r-link:hover{
+    background-color: #D6A04C;
+    color: #FFF;
+}
+
+#img1{
+    position: relative;
+    width: 416px;
+    height: 334px;
+    top: 120px;
+}
+
+#what-we-do{
+    justify-items: center;
+    position: relative;
+    width: 100%;
+    height: 604.8px;
+    padding: 100px 0 90px 0;
+    background-color: #0b0016;
+    z-index: 100;
+}
+
+#wwd-text{
+    position: relative;
+    bottom: 6px;
+    right: 519px;
+    margin: 0 0 21px 0;
+    color: #FFF;
+    font-family: "Cabin";
+    font-size: 44px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+.wwd-row{
+    display: inline-block;
+    position: relative;
+    width: 413px;
+    left: -1px;
+    margin: 0 11.5px;
+    height: 469.22px;
+}
+
+.wwd-row:hover{
+    top: 20px;
+}
+
+.wwd-row > div{
+    opacity: 0;
+}
+
+.wwd-row:hover > div{
+    opacity: 1;
+}
+
+.wwd-row > div{
+    position: relative;
+    bottom: 230px;
+    left: 45%;
+    width: 50px;
+    height: 50px;
+    margin-bottom: -50px;
+    border-radius: 50%;
+    background-color: white;
+    cursor: pointer;
+}
+
+#arrow{
+    position: relative;
+    top: 16px;
+    left: 16px;
+}
+
+.wwd-row:hover > .wwd-r-img{
+    opacity: 0.5;
+}
+
+.wwd-row:hover > .wwd-r-title{
+    color: #D6A04C;
+}
+
+.wwd-r-img{
+    position: relative;
+    width: 416px;
+    height: 362px;
+    margin: 33px 0 15px 0;
+}
+
+.wwd-r-title{
+    position: relative;
+    top: 6px;
+    color: #E9E3D9;
+    font-family: "Cabin";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+.wwd-r-text{
+    position: relative;
+    top: 17px;
+    color: #E9E3D9;
+    font-family: "Questrial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#projects{
+    justify-items: center;
+    position: relative;
+    width: 100%;
+    height: 815.625px;
+    padding: 100px 0 0 0;
+    background-color: #1e1e1e;
+    z-index: 100;
+}
+
+#p-title{
+    position: relative;
+    right: 281px;
+    color: #2A2A2A;
+    font-family: "Cabin";
+    font-size: 215px;
+    font-weight: 600;
+    line-height: 1;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #E9E3D9;
+}
+
+#p-img{
+    position: relative;
+    width: 1296px;
+    height: 668px;
+    bottom: 67px;
+    z-index: 10;
+}
+
+#p-container{
+    position: relative;
+    bottom: 422px;
+    width: 1296px;
+    height: 35px;
+    z-index: 10;
+}
+
+#p-container > svg:nth-child(2){
+    position: relative;
+    left: 1232px;
+    cursor: pointer;
+}
+
+#p-content{
+    position: relative;
+    bottom: 215px;
+    right: 275px;
+    width: 686px;
+    height: 136px;
+    margin: 0 0 30px 0;
+    padding: 30px;
+    background-color: #D6A04C;
+    z-index: 10;
+}
+
+#p-content:hover{
+    background-color: #282424;
+}
+
+#p-content:hover > #p-c-title{
+    color: #D6A04C;
+}
+
+#p-content:hover > #p-arrow{
+    background-color: #D6A04C;
+    opacity: 1;
+}
+
+#p-c-title{
+    position: relative;
+    left: 40px;
+    width: 450px;
+    color: #FFF;
+    font-family: "Cabin";
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 1.175;
+    margin: 0 0 25px 0;
+}
+
+#p-c-text{
+    position: relative;
+    left: 40px;
+    color: #FFF;
+    font-family: "Questrial";
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.4;
+}
+
+#p-arrow{
+    position: relative;
+    left: 18px;
+    bottom: 373px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #f3b759;
+    opacity: 0.8;
+    z-index: 10;
+}
+
+#p-arrow > svg{
+    position: relative;
+    top: 22px;
+    left: 21px;
+}
+
+#p-balls{
+    position: relative;
+    bottom: 357px;
+    left: 570px;
+    width: 200px;
+    height: 30px;
+    z-index: 100;
+}
+
+.balls{
+    transform: scale(1.1);
+    margin: 6.5px;
+    opacity: 0;
+    z-index: 100;
+    appearance: none;
+}
+
+#p-balls-style{
+    position: relative;
+    bottom: 387px;
+    left: 570px;
+    width: 200px;
+    height: 30px;
+    z-index: 100;
+}
+
+.balls-hidden{
+    display: inline-block;
+    position: relative;
+    width: 13px;
+    height: 13px;
+    margin: 6.5px;
+    border-radius: 50%;
+    background-color: #FFF;
+    opacity: 0.2;
+    z-index: 10;
+}
+
+.balls:nth-child(1):checked, .balls-hidden:nth-child(1){
+    opacity: 1;
+}
+
+#projects-pt2{
+    position: relative;
+    width: 100%;
+    height: 226.312px;
+    margin: -109px 0 0 0;
+    padding: 0 0 120px 0;
+    background-color: #0b0016;
+    z-index: 1;
+}
+
+#why-us{
+    justify-items: center;
+    position: relative;
+    width: 100%;
+    height: 535.938px;
+    padding: 90px 0 0 0;
+    background-color: #0b0016;
+    z-index: 100;
+}
+
+#w-img{
+    position: relative;
+    right: 275px;
+    width: 746px;
+    height: 535.94px;
+}
+
+#w-row{
+    position: relative;
+    bottom: 500px;
+    left: 466px;
+    width: 500px;
+    height: 421px;
+    margin: 0 0 25px 0;
+}
+
+#w-r-title{
+    position: relative;
+    top: 5px;
+    left: 16px;
+    margin: 0 0 21px 0;
+    color: #FFF;
+    font-family: "Cabin";
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 1.3;
+}
+
+#w-r-text{
+    position: relative;
+    top: 5px;
+    left: 16px;
+    width: 420px;
+    margin: 0 0 15px 0;
+    color: #E9E3D9;
+    font-family: "Questrial";
+    font-size: 27px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+#w-r-link{
+    position: relative;
+    top: 41px;
+    left: 16px;
+    padding: 16px 27px;
+    border: solid 1px #D6A04C;
+    background-color: transparent;
+    color: #D6A04C;
+    font-family: "Questrial";
+    letter-spacing: 1px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+#w-r-link:hover{
+    border: solid 1px #FFF;
+    background-color: #FFF;
+}
+
+#owner-words{
+    justify-items: center;
+    position: relative;
+    width: 100%;
+    height: 325px;
+    padding: 139px 0 130px 0;
+    background-color: #0a0a0a;
+    z-index: 100;
+}
+
+#o-text{
+    position: relative;
+    top: 26px;
+    width: 675px;
+    padding: 0 200px;
+    color: #C1C1C1;
+    font-family: "Questrial";
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.5;
+    text-align: center;
+}
+
+#o-row{
+    position: relative;
+    top: 8px;
+    width: 1066px;
+    height: 25px;
+}
+
+#a-right{
+    position: relative;
+    left: 1011px;
+}
+
+#o-imgfounder{
+    position: relative;
+    top: 33px;
+}
+
+#o-subtext{
+    position: relative;
+    top: 49px;
+    margin: 0 0 15px 0;
+    color: #FFF;
+    font-family: "Questrial";
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+#interactives{
+    justify-items: center;
+    position: relative;
+    width: 100%;
+    height: 664px;
+    padding: 0 0 120px 0;
+    background-color: #0b0016;
+    z-index: 100;
+}
+
+.i-container{
+    position: relative;
+    margin: 0 0 30px;
+    padding: 30px;
+    width: 1234px;
+    height: 240px;
+    border: solid 1px #484848;
+}
+
+.i-container:hover{
+    border: solid 1px transparent;
+    background-color: #272727;
+}
+
+.i-container:hover > .i-row > .i-r-title{
+    color: #D6A04C;
+}
+
+.i-container:hover > .i-r-arrow{
+    background-color: #D6A04C;
+}
+
+.i-row{
+    position: relative;
+    bottom: 53px;
+    left: 36px;
+    width: 448px;
+    height: 177.38px;
+    display: inline-block;
+}
+
+.i-r-text{
+    position: relative;
+    bottom: 3px;
+    margin: 0 0 20px 0;
+    color: #FFF;
+    font-family: "Questrial";
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.i-r-title{
+    position: relative;
+    width: 450px;
+    margin: 0 0 25px 0;
+    color: #FFF;
+    font-family: "Cabin";
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.i-r-date{
+    position: relative;
+    margin: 0 0 15px 0;
+    color: #FFF;
+    font-family: "Questrial";
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+.i-r-arrow{
+    position: relative;
+    bottom: 178px;
+    left: 1154px;
+    width: 60px;
+    height: 60px;
+    line-height: 65px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.1);
+    cursor: pointer;
+}
+
+#footer{
+    justify-items: center;
+    position: relative;
+    width: 100%;
+    height: 261.391px;
+    padding: 120px 0px 127.9px 0;
+    background-color: #1e1e1e;
+    z-index: 100;
+}
+
+#f-container{
+    width: 1296px;
+    height: 260.39px;
+    margin: 0 179px;
+    padding: 0 12px;
+}
+
+#f-logo{
+    position: relative;
+    bottom: 182px;
+}
+
+.f-c-row{
+    display: inline-block;
+    position: relative;
+    bottom: 42px;
+    left: 84px;
+    width: 220px;
+    height: 261.39px;
+}
+
+.f-c-row:nth-child(3){
+    left: 80px;
+    bottom: 81px;
+}
+
+.f-c-r-title{
+    position: relative;
+    margin: 0 0 34px 0;
+    color: #FFF;
+    font-family: "Cabin";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.f-c-r-links{
+    display: block;
+    position: relative;
+    margin: 23px 0;
+    color: #E9E3D9;    
+    font-family: "Questrial";
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: underline transparent;
+}
+
+.f-c-r-links:hover{
+    text-decoration: underline #E9E3D9;
+    cursor: pointer;
+}
+
+#f-c-row-xl{
+    display: inline-block;
+    position: relative;
+    left: 64px;
+    width: 416px;
+    height: 261.391px;
+    margin: 0 0 0 220px;
+    padding: 0 12px;
+}
+
+#f-c-r-xl-text{
+    position: relative;
+    bottom: 4px;
+    margin: 0 0 15px 0;
+    color: #A4A6AE;
+    font-family: "Questrial";
+    font-size: 16px;
+    font-weight: normal;
+    line-height: 1.4;
+}
+
+#f-c-r-xl-email{
+    position: relative;
+    bottom: 5px;
+    width: 376px;
+    height: 30px;
+    padding: 15px 20px;
+    border: 0;
+    border-radius: 6px;
+    color: #5C6168;
+    font-size: 16px;
+    font-family: "Questrial";
+    background-color: #FFF;
+    outline: none;
+}
+
+#f-c-r-xl-submit{
+    position: relative;
+    bottom: 65px;
+    left: 81%;
+    padding: 20.5px 30px;
+    line-height: 1;
+    border-radius: 0 3px 3px 0;
+    background-color: #D6A04C;
+    border: 0;
+    cursor: pointer;
+}
+
+#f-c-r-xl-icon{
+    transform: scale(0.975);
+}
+
+#f-c-row-xl > a{
+    position: relative;
+    bottom: 30px;
+    right: 12px;
+    margin: 0 12px;
+    text-decoration: none;
+}
+
+#f-c-row-xl > a > i{
+    color: #FFF;
+}
+
+#f-c-row-xl > a:hover > i{
+    transform: rotateY(180deg);
+    color: #D6A04C;
+}
+
+#f-c-row-xl > a:hover > i{
+    color: #D6A04C;
+}
+
+.f-c-r-xl-icons{
+    position: relative;
+    cursor: pointer;
+}
+
+#f-container-low{
+    position: relative;
+    top: 39px;
+    width: 1278px;
+    height: 87px;
+    margin: 0 167px;
+    padding: 0 12px;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+#f-c-l-text{
+    position: relative;
+    top: 39.9px;
+    color: #A4A6AE;
+    font-family: "Questrial";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 2;
+    text-align: center;
+}
+
+#f-c-l-text > span{
+    color: #D6A04C;
+}
